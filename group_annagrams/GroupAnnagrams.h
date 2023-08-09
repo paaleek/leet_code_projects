@@ -21,11 +21,11 @@ public:
             string sortedWord = word;
             sort(sortedWord.begin(), sortedWord.end());
 
-            map[sortedWord].push_back(word);
+            map[sortedWord].push_back(std::move(word));
 
         }
-        for (auto node: map) {
-            result.push_back(node.second);
+        for (auto& node: map) {
+            result.push_back(std::move(node.second));
         }
         return result;
     }
