@@ -3,4 +3,4 @@ project(leet_code_prijects)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(leet_code_prijects main.cpp annagrams/Annagrams.h group_annagrams/GroupAnnagrams.h most_k_frequent/MostKFrequent.h product_of_array_exept_self/Product.h)
+add_executable(leet_code_prijects main.cpp annagrams/Annagrams.h group_annagrams/GroupAnnagrams.h most_k_frequent/MostKFrequent.h product_of_array_exept_self/Product.h valid_sudoku/ValidSudoku.h)
